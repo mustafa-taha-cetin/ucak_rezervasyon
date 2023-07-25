@@ -39,7 +39,7 @@ namespace Ucak_bileti_alimi
 
         private void button1_Click(object sender, EventArgs e)
         {
-            listBox1.Items.Add("Rota: " + comboBox1.Text + " - " + comboBox2.Text + " Tarih: " + dateTimePicker1.Text + " Saat: " + maskedTextBox1.Text);
+            listBox1.Items.Add(textBox1.Text + " Rota: " + comboBox1.Text + " - " + comboBox2.Text + " Tarih: " + dateTimePicker1.Text + " Saat: " + maskedTextBox1.Text);
 
         }
 
@@ -51,6 +51,11 @@ namespace Ucak_bileti_alimi
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
         {
 
         }
